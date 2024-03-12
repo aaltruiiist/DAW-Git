@@ -159,7 +159,7 @@ Restaura un archivo que haya sido borrado anteriormente
 **git show:** Muestra informacion sobre cualquier objeto de git
 
 
-## Comandos avanzados <a id="avanzados"></a>
+## Comandos avanzados
 
 **git stash:** Guarda momentáneamente los cambios que no estan listos para ser confirmados. De esta forma puedes volver al proyecto más tarde.
 
@@ -229,3 +229,28 @@ Restaura un archivo que haya sido borrado anteriormente
 
 3. Cuando encuentres el fallo usando *git bisect reset*, para volver a la version más reciente de tu codigo.
    
+# Bibliografía
+
+https://aprendeconalf.es/docencia/git/manual/manual-git.pdf
+
+https://unity.com/es/solutions/what-is-version-control
+
+https://ed.team/blog/que-es-git-y-como-funciona
+
+https://www.freecodecamp.org/espanol/news/aprende-los-conceptos-basicos-de-git-en-menos-de-10-minutos/
+
+https://www.atlassian.com/es/git/tutorials/inspecting-a-repository/git-tag#:~:text=Las%20etiquetas%20son%20referencias%20que,una%20rama%20que%20no%20cambia.
+
+https://www.atlassian.com/es/git/tutorials/why-git#:~:text=Una%20de%20las%20mayores%20ventajas,entre%20muchos%20usuarios%20de%20Git.
+
+https://www.siteground.es/kb/estructura-git-contenido-repositorio/
+
+https://www.hostinger.es/tutoriales/mejores-clientes-git-gui#1_QGit
+
+https://www.hostinger.es/tutoriales/comandos-de-git
+
+https://kinsta.com/es/blog/git-avanzado/
+
+https://desarrollowp.com/blog/tutoriales/aprende-git-de-manera-sencilla-comandos-avanzados/
+
+
