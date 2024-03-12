@@ -144,3 +144,88 @@ Restaura un archivo que haya sido borrado anteriormente
 
         git tag 1.1.0 <id-commit>
         
+<br>
+
+**git log:** Se utiliza para ver el historial del repositorio listando algunos detalles:
+
+<br>
+
+**git rm:** Se utiliza para borrar archivos del directorio de trabajo
+
+        git rm archivo.txt
+
+<br>
+
+**git show:** Muestra informacion sobre cualquier objeto de git
+
+
+## Comandos avanzados <a id="avanzados"></a>
+
+**git stash:** Guarda momentáneamente los cambios que no estan listos para ser confirmados. De esta forma puedes volver al proyecto más tarde.
+
+        git stash
+
+- *git stash save*: Almacena tus cambios en un stash y añade un nombre descriptivo.
+        
+        git stash save "Montando el entorno de test"
+
+- *git stash list*: Lista todos los stash.
+
+        git stash list
+
+- *git stash pop*: Recuperar el último stash.
+        
+        git stash pop
+
+- *git stash pop --index*: Recuperar un stash concreto.
+        
+        git stash pop --index 2
+
+- *git stash branch*: Crear una rama con los cambios que tienes
+
+        git stash branch F/branch-name.
+
+- *git stash clear*: Eliminar los stashes.
+
+        git stash clear
+
+- *git stash -p*: Almacenar en un stash sólo algunos archivos
+        
+        git stash -p
+<br>
+
+**git cherry-pick:** Se utiliza para aplicar el commit de una rama en otra.
+
+
+- *git cherry-pick <commit>*: Aplica el commit especificado en la rama actual.
+  
+         git cherry-pick abc123
+ 
+- *git cherry-pick --no-commit <commit>*: Aplica los cambios del commit especificado pero no realiza automáticamente el commit. Esto permite realizar modificaciones adicionales antes de realizar el commit.
+
+        git cherry-pick --no-commit abc123
+
+
+- *git cherry-pick -n <commit>*: Equivalente a git cherry-pick --no-commit.
+
+        git cherry-pick -n abc123
+ 
+- *git cherry-pick --edit <commit>*: Abre el mensaje de commit en un editor de texto antes de realizar el commit, permitiéndote modificar el mensaje del commit.
+
+        git cherry-pick --edit abc123
+
+<br>
+
+**git bisect:** Sirve para buscar errores en todos los commits del proyecto.
+
+1. Comenzamos utilizando el comando *git bisect start*:
+     - Este comando te llevaría al primer commit de tu proyecto.
+
+<br>
+
+2. Una vez allí tendremos que ir indicando si los commits son correctos o tienen algun fallo con los siguientes comandos:
+     - Para eso estan *git bisect good* y *git bisect bad*.
+<br>
+
+3. Cuando encuentres el fallo usando *git bisect reset*, para volver a la version más reciente de tu codigo.
+   
