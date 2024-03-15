@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="GitFlow GitFlow ¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.
+Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:
+Main o Ramas Principales
+Es la rama de desarrollo contiene el codigo estable y listo para produccion.">
+    <meta name="generator" content="Hugo 0.123.8">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://example.org/posts/gitflow/">
+    
+
+    <meta property="og:title" content="" />
+<meta property="og:description" content="GitFlow GitFlow ¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.
+Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:
+Main o Ramas Principales
+Es la rama de desarrollo contiene el codigo estable y listo para produccion." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.org/posts/gitflow/" /><meta property="article:section" content="posts" />
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="GitFlow GitFlow ¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.
+Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:
+Main o Ramas Principales
+Es la rama de desarrollo contiene el codigo estable y listo para produccion.">
+
+<meta itemprop="wordCount" content="947">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="GitFlow GitFlow ¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.
+Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:
+Main o Ramas Principales
+Es la rama de desarrollo contiene el codigo estable y listo para produccion."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1"></h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="gitflow">GitFlow</h1>
+<ul>
+<li><a href="#gitflow">GitFlow</a>
+<ul>
+<li><a href="#qu%C3%A9-es-gitflow">¿Qué es GitFlow?</a></li>
+<li><a href="#ventajas-y-motivos">Ventajas y Motivos</a></li>
+<li><a href="#desventajas">Desventajas</a></li>
+<li><a href="#alternativas-a-git-flow">Alternativas a Git Flow</a></li>
+<li><a href="#ejemplos-de-uso-de-git-flow">Ejemplos de uso de Git Flow</a></li>
+</ul>
+</li>
+<li><a href="#bibliograf%C3%ADa">Bibliografía</a></li>
+</ul>
+<h2 id="qué-es-gitflow">¿Qué es GitFlow?</h2>
+<p>GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.</p>
+<h2 id="ventajas-y-motivos">Ventajas y Motivos</h2>
+<ol>
+<li>
+<p><strong>Separación de funcionalidades:</strong> Promueve la separación de las funcionalidades en diferentes ramas:</p>
+<p><em>Main o Ramas Principales</em></p>
+<ul>
+<li>Es la rama de desarrollo contiene el codigo estable y listo para produccion.
+<!-- raw HTML omitted -->
+<em>Features o Ramas de funcionalidades</em></li>
+<li>Son las ramas que se crean para desarrollar nuevas funcionalidades o características, cada vez que se añade una nueva característica se crea una a partir del codigo de la rama principal. Cuando esta feature esta terminada y probada se fusiona de nuevo con la rama main.
+<!-- raw HTML omitted -->
+<em>Releases o Ramas de Lanzamiento</em></li>
+<li>Se utilizan para preparar una versión para su lanzamiento, se crean a partir de la rama principal, cuando el proyecto se acerca a una nueva versión. En esta rama se pueden realizar pequeñas correciones previas a su despliegue.
+<!-- raw HTML omitted -->
+<em>Hotfix o Ramas de Correción de Errores</em></li>
+<li>Estás ramas se utilizan para corregir errores criticon en producción. Se crean a partir de la rama principal y se pueden fusionar tanto con la rama de lanzamiento actual, si existe o con la misma rama principal.
+<!-- raw HTML omitted --></li>
+</ul>
+</li>
+<li>
+<p><strong>Mayor control de versiones:</strong> Gestionar las versiones es más facil gracias a las ramas específicas, ya que permite un mayor control sobre los cambios que se incluyen en cada versión y cuando desplegarla.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Facilita la colaboración:</strong> Al especificar el manejo de las diferentes ramas y como se deben fusionar los cambios, permite que varias personas trabajen sobre el mismo codigo, pero reduciendo la posibilidad de conflictos en el codigo.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Flexibilidad y Escalabilidad:</strong> Puede adaptarse a diferentes tipos de proyectos y tamaños de equipo. Puede escalar fácilmente desde proyectos pequeños hasta proyectos más grandes y complejos, manteniendo una estructura coherente y organizada.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Revertir cambios:</strong> Si algo sale mal con una característica o una versión, Git Flow permite revertir esos cambios de manera segura sin afectar otras partes del proyecto.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Compatibilidad con herramientas y servicios</strong>: H ay muchas herramientas y servicios que están integrados o son compatibles con GitFlow, como plataformas de alojamiento de repositorios como GitHub, GitLab o Bitbucket, así como herramientas de integración continua y despliegue continuo (CI/CD).</p>
+</li>
+</ol>
+<h2 id="desventajas">Desventajas</h2>
+<ol>
+<li><strong>Complejidad Incial:</strong> Puede llegar a resultar complejo para usuarios que no esten familiarizados o no tienen experiencia previa en la gestión de ramas.
+<!-- raw HTML omitted --></li>
+<li><strong>Mayos cantidad de ramas:</strong> Implica la creación de múltiples rmas en comparación con otros flujos de trabajo.
+<!-- raw HTML omitted --></li>
+<li><strong>Riesgos de conflicto:</strong> Al existir más ramas, existe un mayor riesgo de conflicto durante la fusion de las mismas, especialmente en proyectos grandes o cuando varios desarrolladores trabajan en funcionalidades simultáneas.
+<!-- raw HTML omitted --></li>
+<li><strong>Sobrecarga de mantenimiento:</strong> Mantener las múltiples ramas puede llevar una sobrecarga de mantenimiento, mayoritariamente en proyectos pequeños o con recursos limitados.</li>
+</ol>
+<h2 id="alternativas-a-git-flow">Alternativas a Git Flow</h2>
+<ol>
+<li>
+<p><strong>GitLab Flow:</strong>  Es una alternativa que nace a partir de las carencias que se detectaron en GitHub Flow y Git Flow.
+El flujo consta de una rama master, ramas features y ramas de entorno; cada vez que se acaba una feature se hace un merge request a master. Cuando la rama master cuenta con varias features, se hace un merge request a preproducción y luego a producción.
+No se necesitan ramas release ya que cada entorno es desplegado con cada merge request aceptada.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Trunk-based Flow:</strong> Este flujo presenta un cambio de filosofía:
+Los desarrolladores deben colaborar siempre sobre master.
+En casp de que una evolución compleja, se hace uso de features flags para activar o desactivar nuevas características.
+Se prefiere la metodología Pair-Programming (Dos personas trabajando en paralelo sobre el mismo código).
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Master-only Flow:</strong> Este flujo de trabajo usa solo una rama, la cual es infinita. Se realizan features y hot-fix sobre la misma rama y se testean en local con un commit, cuando se aprueba el nuevo cambio se hace un push contra la rama principal y se despliega en producción al instante.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>GitOps:</strong> Se enfoca en automatizar la implementación y gestión de la infraestructura y las aplicaciones. También se puede combinar con otras herramientas para diseñar, como las de integración y distribución continuas y las de gestión de la configuración.</p>
+<h2 id="ejemplos-de-uso-de-git-flow">Ejemplos de uso de Git Flow</h2>
+</li>
+<li>
+<p><strong>git flow init</strong>: Inicializa un nuevo repositorio Git para usar Gitflow. Esto configura las ramas principales (master y develop) y establece algunas opciones de configuración.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow feature start [nombre_feature]</strong>: Crea una nueva rama de características basada en la rama develop. Se utiliza para desarrollar nuevas características.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow feature finish [nombre_feature]</strong>: Fusiona una rama de características terminada de vuelta en la rama develop y la elimina.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow feature pull origin [nombre_feature]</strong>: Publica una feature por otro usuario. Útil si otro colaborador ha realizado cambios en la rama remota y se desea sincronizar la rama local con los cambios.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow feature track [nombre_release]</strong>: Se crea una nueva rama basada en la rama develop, permite empezar a trabajar en una nueva característica.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow release start [nombre_release]</strong>: Crea una nueva rama de lanzamiento basada en la rama develop. Se utiliza para preparar una versión para lanzamiento.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow release finish [nombre_release]</strong>: Fusiona una rama de lanzamiento terminada en las ramas master y develop, crea una etiqueta de versión y elimina la rama de lanzamiento.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow hotfix start [nombre_hotfix]</strong>: Crea una nueva rama de hotfix basada en la rama master. Se utiliza para corregir problemas críticos en producción.
+<!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>git flow hotfix finish [nombre_hotfix]</strong>: Fusiona una rama de hotfix terminada en las ramas master y develop, crea una etiqueta de versión y elimina la rama de hotfix.</p>
+</li>
+</ol>
+<h1 id="bibliografía">Bibliografía</h1>
+<p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow</a></p>
+<p><a href="https://willywes.medium.com/por-qu%C3%A9-es-una-buena-idea-utilizar-gitflow-c92c5e7754e0">https://willywes.medium.com/por-qu%C3%A9-es-una-buena-idea-utilizar-gitflow-c92c5e7754e0</a></p>
+<p><a href="https://www.reddit.com/r/git/comments/vnfsr8/desperately_need_help_finding_an_alternative_to/">https://www.reddit.com/r/git/comments/vnfsr8/desperately_need_help_finding_an_alternative_to/</a></p>
+<p><a href="https://docs.github.com/en/get-started/using-github/github-flow">https://docs.github.com/en/get-started/using-github/github-flow</a></p>
+<p><a href="https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/">https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/</a></p>
+<p><a href="https://blog.soyhenry.com/que-es-el-pair-programming/#:~:text=El%20Pair%20Programming%20es%20una,para%20intervenir%20en%20el%20c%C3%B3digo">https://blog.soyhenry.com/que-es-el-pair-programming/#:~:text=El%20Pair%20Programming%20es%20una,para%20intervenir%20en%20el%20c%C3%B3digo</a>.</p>
+<p><a href="https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos">https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos</a></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://example.org/" >
+    &copy;  My New Hugo Site 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
