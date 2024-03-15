@@ -15,6 +15,7 @@ Una vez completado, el servidor de integración continua notifoca sobre el resul
 El archivo .yml es un archivo de configuración en formato YAML, en el que se especifica como se debe comportar el sistema de integración continua al construir, probar y desplegar el software. Es utilizado para automatizar el proces o de CI.
 
 En el archivo podemos encontrarnos con elementos tales como:
+
 1. jobs: Define los trabajos que se ejecutarán como parte del proceso de integración continua.
 2. runs-on: Especificación del sistema operativo en el que se ejecutará.
 3. steps: Define los pasos que se ejecutarán.
