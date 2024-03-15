@@ -126,7 +126,7 @@ Los archivos grandes suelen cargarse más lentamente y no muestran el historial.
 ### Clientes Git para Mac
 1. GitUp: Viene con un kit de herramientas que perite crear aplicaciones de Git. Tiene una función de Mapa en vivo que permite ver el progreso del proyecto sin actualizarlo. 
 2. GitBox: Con este cliente se pueden recuperar automáticamente nuevas confirmaciones del servidor, evitanto fusionar confirmaciones y conflictos.
-=======
+
 ## Comandos de Git
 
 ### Comandos básicos de Git
@@ -382,5 +382,5 @@ https://kinsta.com/es/blog/git-avanzado/
 
 https://desarrollowp.com/blog/tutoriales/aprende-git-de-manera-sencilla-comandos-avanzados/
 
->>>>>>> feature_comandos
+
 
