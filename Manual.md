@@ -1,4 +1,25 @@
+
 # Manual de GIT
+
+# ÍNDICE
+
+- [Manual de GIT](#manual-de-git)
+- [ÍNDICE](#índice)
+  - [Sistema de control de versiones](#sistema-de-control-de-versiones)
+  - [Conceptos básicos](#conceptos-básicos)
+  - [Funcionamiento de Git](#funcionamiento-de-git)
+  - [Git como la mejor alternativa](#git-como-la-mejor-alternativa)
+  - [Distintos tipos de clientes](#distintos-tipos-de-clientes)
+    - [Clientes Git para Linux](#clientes-git-para-linux)
+    - [Clientes Git para Windows](#clientes-git-para-windows)
+    - [Clientes Git para Mac](#clientes-git-para-mac)
+
+
+
+
+
+
+
 
 ## Sistema de control de versiones 
 Git es un sistema  de control de versiones. Este sistema permite realizar un seguimiento,una gestión y una revisión de todos los cambios de código de un software a lo largo del tiempo. 
