@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Tarefa Lisa y Álvaro</title>
     <link>https://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Tarefa Lisa y Álvaro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -12,21 +12,21 @@
       <link>https://example.org/posts/ci-cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/ci-cd/</guid>
-      <description>Manual CI-CD Indice Manual CI-CD Indice Runners y Pipelines Para que sirve la integración continua Ejemplo de como se desplegaría Explicación del .yml Bibliografía Runners y Pipelines Runners: Los runners en integración continua pueden ser máquinas virtuales, contenedores Docker, o incluso dispositivos físicos. Un runner es un agente que ejecuta automáticamente tareas como compilación, pruebas y despliegue según lo definido en un pipeline de CI/CD. Su función es acelerar y automatizar el proceso de desarrollo de software al garantizar la calidad y consistencia del código en cada iteración.</description>
+      <description>Indice Manual CI-CD Indice Runners y Pipelines Para que sirve la integración continua Ejemplo de como se desplegaría Explicación del .yml Bibliografía Runners y Pipelines Runners: Los runners en integración continua pueden ser máquinas virtuales, contenedores Docker, o incluso dispositivos físicos. Un runner es un agente que ejecuta automáticamente tareas como compilación, pruebas y despliegue según lo definido en un pipeline de CI/CD. Su función es acelerar y automatizar el proceso de desarrollo de software al garantizar la calidad y consistencia del código en cada iteración.</description>
     </item>
     <item>
       <title></title>
       <link>https://example.org/posts/gitflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/gitflow/</guid>
-      <description>GitFlow GitFlow ¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.&#xA;Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:&#xA;Main o Ramas Principales&#xA;Es la rama de desarrollo contiene el codigo estable y listo para produccion.</description>
+      <description>¿Qué es GitFlow? Ventajas y Motivos Desventajas Alternativas a Git Flow Ejemplos de uso de Git Flow Bibliografía ¿Qué es GitFlow? GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales.&#xA;Ventajas y Motivos Separación de funcionalidades: Promueve la separación de las funcionalidades en diferentes ramas:&#xA;Main o Ramas Principales&#xA;Es la rama de desarrollo contiene el codigo estable y listo para produccion.</description>
     </item>
     <item>
       <title></title>
       <link>https://example.org/posts/manual/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://example.org/posts/manual/</guid>
-      <description>Manual de GIT Manual de GIT Sistema de control de versiones Conceptos básicos Funcionamiento de Git Git como la mejor alternativa Distintos tipos de clientes Clientes Git para Linux Clientes Git para Windows Clientes Git para Mac Comandos de Git Comandos básicos de Git Comandos avanzados Bibliografía Sistema de control de versiones Git es un sistema de control de versiones. Este sistema permite realizar un seguimiento,una gestión y una revisión de todos los cambios de código de un software a lo largo del tiempo.</description>
+      <description>Manual de GIT Sistema de control de versiones Conceptos básicos Funcionamiento de Git Git como la mejor alternativa Distintos tipos de clientes Clientes Git para Linux Clientes Git para Windows Clientes Git para Mac Comandos de Git Comandos básicos de Git Comandos avanzados Bibliografía Sistema de control de versiones Git es un sistema de control de versiones. Este sistema permite realizar un seguimiento,una gestión y una revisión de todos los cambios de código de un software a lo largo del tiempo.</description>
     </item>
     <item>
       <title></title>
