@@ -5,5 +5,3 @@
     <br>
 # Para que sirve la integración continua
 La integración continua (CI) implica la integración automática y frecuente de cambios en el código de un proyecto en un repositorio compartido. Detecta errores tempranos y facilita la corrección rápida, manteniendo así la estabilidad del proyecto y permitiendo una colaboración más fluida entre desarrolladores. En resumen, la CI acelera el ciclo de desarrollo al garantizar entregas regulares y confiables, lo que mejora la satisfacción del cliente y la capacidad de adaptación del software al mercado.
-
-
