@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-
 # Manual de GIT
 
-# ÍNDICE
-
 - [Manual de GIT](#manual-de-git)
-- [ÍNDICE](#índice)
   - [Sistema de control de versiones](#sistema-de-control-de-versiones)
   - [Conceptos básicos](#conceptos-básicos)
   - [Funcionamiento de Git](#funcionamiento-de-git)
@@ -14,12 +9,10 @@
     - [Clientes Git para Linux](#clientes-git-para-linux)
     - [Clientes Git para Windows](#clientes-git-para-windows)
     - [Clientes Git para Mac](#clientes-git-para-mac)
-
-
-
-
-
-
+  - [Comandos de Git](#comandos-de-git)
+    - [Comandos básicos de Git](#comandos-básicos-de-git)
+    - [Comandos avanzados](#comandos-avanzados)
+- [Bibliografía](#bibliografía)
 
 
 ## Sistema de control de versiones 
@@ -134,9 +127,9 @@ Los archivos grandes suelen cargarse más lentamente y no muestran el historial.
 1. GitUp: Viene con un kit de herramientas que perite crear aplicaciones de Git. Tiene una función de Mapa en vivo que permite ver el progreso del proyecto sin actualizarlo. 
 2. GitBox: Con este cliente se pueden recuperar automáticamente nuevas confirmaciones del servidor, evitanto fusionar confirmaciones y conflictos.
 =======
-# COMANDOS DE GIT
+## Comandos de Git
 
-## Comandos básicos de Git
+### Comandos básicos de Git
 
 **git init:** Crea un nuevo repositorio local, si no se le especifica una ruta, lo creará en el directorio actual, sinó en la ruta especificada.
     
@@ -295,7 +288,7 @@ Restaura un archivo que haya sido borrado anteriormente
 **git show:** Muestra informacion sobre cualquier objeto de git
 
 
-## Comandos avanzados
+### Comandos avanzados
 
 **git stash:** Guarda momentáneamente los cambios que no estan listos para ser confirmados. De esta forma puedes volver al proyecto más tarde.
 
