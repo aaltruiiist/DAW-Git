@@ -5,6 +5,7 @@
 GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales. 
 
 
+
 ## Ventajas y Motivos
 
 1. **Separación de funcionalidades:** Promueve la separación de las funcionalidades en diferentes ramas:
@@ -34,4 +35,10 @@ GitFlow es un modelo alternativo que funciona mediante a la creación de ramas e
 
 ## Desventajas
 
-1. **Complejidad Incial:** Puede llegar a resultar complejo para usuarios que no esten relacionados con
+1. **Complejidad Incial:** Puede llegar a resultar complejo para usuarios que no esten familiarizados o no tienen experiencia previa en la gestión de ramas.
+    <br>
+2. **Mayos cantidad de ramas:** Implica la creación de múltiples rmas en comparación con otros flujos de trabajo.
+    <br>
+3. **Riesgos de conflicto:** Al existir más ramas, existe un mayor riesgo de conflicto durante la fusion de las mismas, especialmente en proyectos grandes o cuando varios desarrolladores trabajan en funcionalidades simultáneas.
+    <br>
+4. **Sobrecarga de mantenimiento:** Mantener las múltiples ramas puede llevar una sobrecarga de mantenimiento, mayoritariamente en proyectos pequeños o con recursos limitados.
