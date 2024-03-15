@@ -1,5 +1,10 @@
 # GitFlow 
 
+
+- [GitFlow](#gitflow)
+  - [¿Qué es GitFlow?](#qué-es-gitflow)
+  - [Ventajas y Motivos](#ventajas-y-motivos)
+  - [Desventajas](#desventajas)
 ## ¿Qué es GitFlow?
 
 GitFlow es un modelo alternativo que funciona mediante a la creación de ramas en Git, en el que existen ramas de función y varias ramas principales. 
